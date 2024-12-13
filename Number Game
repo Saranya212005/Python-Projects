@@ -1,3 +1,5 @@
+#python
+#Number Game
 import random,math,smtplib
 def correct():
     print('-------------------------------NUMBER GAME OF 1-6---------------------')
@@ -12,6 +14,5 @@ def correct():
             s=int(input("Enter the number in 1-6:"))
         else:
             break
-    if s==m:
-            print("Matched,"," computer choosen:",s)
+    print(f"Hurray we got the number it is {m}")
 correct()
